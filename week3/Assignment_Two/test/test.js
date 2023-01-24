@@ -50,4 +50,11 @@ describe("Good Afternoon Returned?", function () {
     });
   });
 });
+describe("Error Returned?", function () {
+  describe("Test Error Message Returned", function () {
+    it("Should return error message", function () {
+      assert.typeOf(errorMessageClasObject.testuserinput(), 'string');
+    });
+  });
+});
 

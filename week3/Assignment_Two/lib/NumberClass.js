@@ -14,9 +14,8 @@ module.exports = class NumberClass {
       return "Good Evening";
     } else if (this.value % 3 !== 0 || this.value % 7 !== 0) {
       return String(this.value);
-    } else if (typeof this.value !== 'number') {
+    } else {
       return "This is a custom error message";
     }
   }
 };
-
