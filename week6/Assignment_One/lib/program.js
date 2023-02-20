@@ -18,7 +18,7 @@ module.exports = class AddToList{
     removeItem(item){
         this.array.filter((element) => element === item);
     }
-
+ 
     searchArray(item){
         return this.array.includes(item);
     }
